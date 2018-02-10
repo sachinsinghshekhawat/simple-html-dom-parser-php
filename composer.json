@@ -2,6 +2,7 @@
     "name": "sachinsinghshekhawat/simple-html-parser-php",
     "description": "Simple HTML parser for PHP",
     "type": "library",
+    "license": "MIT",
     "keywords": ["html", "dom", "parser","PHP"],
     "authors": [
 	    {   
