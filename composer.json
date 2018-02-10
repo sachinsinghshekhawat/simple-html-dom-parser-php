@@ -1,0 +1,23 @@
+{
+    "name": "sachinsinghshekhawat/simple-html-parser-php",
+    "description": "Simple HTML parser for PHP",
+    "type": "library",
+    "keywords": ["html", "dom", "parser","PHP"],
+    "authors": [
+	    {   
+            "name": "S.C. Chen",
+            "homepage": "http://sourceforge.net/projects/simplehtmldom/"
+        },
+        {
+            "name": "Sachin Singh Shekhawat",
+            "email": "sachinsinghshekhawat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"require": {
+        "php": ">=5.6.32"
+    },
+    "autoload": {
+        "psr-0": { "sachinsinghshekhawat\\SimpleHTMLParserPHP\\HTMLParser": "src/" }
+    }   
+}
