@@ -1,8 +1,8 @@
 <?php
 
-	namespace sachinsinghshekhawat\SimpleHTMLParserPHP;
+//	namespace sachinsinghshekhawat\SimpleHTMLParserPHP;
 	
-	require 'simple_html_dom.php';
+	require 'simplehtmldom_1_5'.DIRECTORY_SEPARATOR.'simple_html_dom.php';
 		
 	class HTMLParser{
 		
