@@ -1,22 +1,15 @@
 <?php
 
 	namespace sachinsinghshekhawat\SimpleHTMLDomParserPHP;
-	use sachinsinghshekhawat\SimpleHTMLDomParserPHP\simplehtmldom_1_5;
-		
+
+	require 'simplehtmldom_1_5'.DIRECTORY_SEPARATOR.'simple_html_dom.php';
 	class HTMLParser{
 		
-		/**
-		 * get html
-		 * @return \simplehtmldom_1_5\simple_html_dom
-		 */
-		static public function file_get_html() {
-			return call_user_func_array ( '\simplehtmldom_1_5\file_get_html' , func_get_args() );
+		static public function file_get_html($url) {
+			return file_get_html($url);
 		}
-		/**
-		 * get html dom from string
-		 * @return \simplehtmldom_1_5\simple_html_dom
-		 */
-		static public function str_get_html() {
-			return call_user_func_array ( '\simplehtmldom_1_5\str_get_html' , func_get_args() );
+		static public function str_get_html($str) {
+			return str_get_html($str);
 		}
 	}
+	
