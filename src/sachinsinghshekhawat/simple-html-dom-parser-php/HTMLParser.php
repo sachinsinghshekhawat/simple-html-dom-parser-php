@@ -1,6 +1,6 @@
 <?php
 
-//	namespace sachinsinghshekhawat\SimpleHTMLParserPHP;
+	namespace sachinsinghshekhawat\simple-html-dom-parser-php;
 	
 	require 'simplehtmldom_1_5'.DIRECTORY_SEPARATOR.'simple_html_dom.php';
 		
