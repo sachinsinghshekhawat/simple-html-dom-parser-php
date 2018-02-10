@@ -1,6 +1,6 @@
 <?php
 
-namespace simplehtmldom_1_5;
+namespace sachinsinghshekhawat\SimpleHTMLDomParserPHP\simplehtmldom_1_5;
 
 /**
  * Website: http://sourceforge.net/projects/simplehtmldom/
