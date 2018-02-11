@@ -41,4 +41,4 @@ foreach($dom->find('img') as $element)
 ------------------------------
 
 For more documentations:
-	http://simplehtmldom.sourceforge.net/
+http://simplehtmldom.sourceforge.net/
