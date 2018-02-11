@@ -10,11 +10,13 @@ Its a HTML dom parser for PHP, you can either process a URL or HTML string, give
 which can be used for further processing.
 
 To get DOM object from a URL, use function file_get_html():
-$dom = HTMLParser::file_get_html("https://google.com");
-	
+```
+	$dom = HTMLParser::file_get_html("https://google.com");
+```
 To get DOM object from a string, use function str_get_html():
-$dom = HTMLParser::str_get_html("<html><head></head><body></body></html>");
-	
+```
+	$dom = HTMLParser::str_get_html("<html><head></head><body></body></html>");
+```	
 	
 Install
 ----------------------------------
@@ -28,17 +30,18 @@ replace last argument with any of the version available.
 
 Usage
 ------------------------------
+```
 <?php
 
-use sachinsinghshekhawat\SimpleHTMLDomParserPHP\HTMLParser;
-require 'vendor/autoload.php'; //change path of your vendor autload file
-
-$dom = HTMLParser::file_get_html("https://google.com");
-
-foreach($dom->find('img') as $element) 
-   echo $element->src . '<br>';
-
+	use sachinsinghshekhawat\SimpleHTMLDomParserPHP\HTMLParser;
+	require 'vendor/autoload.php'; //change path of your vendor autload file
+	
+	$dom = HTMLParser::file_get_html("https://google.com");
+	
+	foreach($dom->find('img') as $element) 
+	   echo $element->src . '<br>';
+```
 ------------------------------
 
 For more documentations:
-http://simplehtmldom.sourceforge.net/
+	http://simplehtmldom.sourceforge.net/
